@@ -8,6 +8,7 @@
 <script>
 import './svg.js'
 export default {
+  name:'RainbowIcon',
   props:['name'],
 };
 </script>
