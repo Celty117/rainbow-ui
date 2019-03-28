@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "GuluCol",
+  name: "RainbowCol",
   props: {
     span: {
       type: [Number, String]
