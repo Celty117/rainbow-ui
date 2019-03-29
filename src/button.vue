@@ -2,7 +2,7 @@
 <template>
   <button
     class="g-button"
-    :class="{[`icon-${iconPosition}`]:true}"
+    :class="{ [`icon-${iconPosition}`]: true }"
     @click="$emit('click')"
   >
     <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
@@ -17,34 +17,34 @@
 import Icon from './icon'
 
 export default {
-  name:'RainbowButton',
-  components:{
-    'g-icon':Icon,
+  name: 'RainbowButton',
+  components: {
+    'g-icon': Icon
   },
   //props: ["icon", "iconPosition"]
   props: {
     icon: {},
-    loading:{
+    loading: {
       type: Boolean,
-      default: false,
+      default: false
     },
     iconPosition: {
       type: String,
       default: 'left',
-      validator(value){
-        return value === 'left' || value === 'right';
+      validator(value) {
+        return value === 'left' || value === 'right'
       }
     }
-  },
-};
+  }
+}
 </script>
 
 <style lang='scss' scoped>
 @keyframes spin {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -85,7 +85,7 @@ export default {
       order: 1;
     }
   }
-  > .loading{
+  > .loading {
     animation: spin 1s infinite linear;
   }
 }

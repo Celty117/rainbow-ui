@@ -8,9 +8,9 @@
 <script>
 import './svg.js'
 export default {
-  name:'RainbowIcon',
-  props:['name'],
-};
+  name: 'RainbowIcon',
+  props: ['name']
+}
 </script>
 
 <style lang='scss' scoped>

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "RainbowCol",
+  name: 'RainbowCol',
   props: {
     span: {
       type: [Number, String]
@@ -18,21 +18,21 @@ export default {
   data() {
     return {
       gutter: 0
-    };
+    }
   },
   computed: {
     colClass() {
-      let { span, offset } = this;
-      return [span && `col-${span}`, offset && `offset-${offset}`];
+      let { span, offset } = this
+      return [span && `col-${span}`, offset && `offset-${offset}`]
     },
     colStyle() {
       return {
-        paddingLeft: this.gutter / 2 + "px",
-        paddingRight: this.gutter / 2 + "px"
-      };
+        paddingLeft: this.gutter / 2 + 'px',
+        paddingRight: this.gutter / 2 + 'px'
+      }
     }
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

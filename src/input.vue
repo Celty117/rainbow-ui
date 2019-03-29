@@ -19,10 +19,10 @@
 </template>
 
 <script>
-import Icon from "./icon";
+import Icon from './icon'
 
 export default {
-  name: "RainbowInput",
+  name: 'RainbowInput',
   components: { Icon },
   props: {
     value: {
@@ -40,7 +40,7 @@ export default {
       type: String
     }
   }
-};
+}
 </script>
 
 <style lang='scss' scoped>
