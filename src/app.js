@@ -40,21 +40,22 @@ new Vue({
     message: 'h1',
   },
   created() {
-    this.$toast('点击知道！', {
-      position: 'middle',
-      enableHtml: false,
-      closeButton: {
-        text: '已知道',
-        callback() {
-          console.log('都已经知道了！')
-        }
-      },
-      autoClose: false,
-      autoCloseDelay: 3
-    })
+
   },
   methods: {
     showToast() {
+      this.$toast(`目前为 ${parseInt(Math.random() * 100)}。需要充值！`, {
+        position: 'middle',
+        enableHtml: false,
+        closeButton: {
+          text: '已充值',
+          callback() {
+            console.log('已经充值了')
+          }
+        },
+        autoClose: false,
+        autoCloseDelay: 3
+      })
     },
   },
 })

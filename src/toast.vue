@@ -82,7 +82,7 @@ export default {
     onClickClose() {
       this.close()
       if (this.closeButton && typeof this.closeButton.callback === 'function') {
-        this.closeButton.callback(this) //this === toast实例
+        this.closeButton.callback(this) //this 就是 toast实例
       }
     }
   }
