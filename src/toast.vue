@@ -55,7 +55,7 @@ export default {
       return {
         [`position-${this.position}`]: true
       }
-    },
+    }
   },
   methods: {
     updateStyles() {
@@ -74,6 +74,7 @@ export default {
     },
     close() {
       this.$el.remove()
+      this.$emit('close')
       this.$destroy()
     },
     log() {
@@ -118,15 +119,15 @@ $toast-bg: rgba(0, 0, 0, 0.75);
     border-left: 1px solid #666;
     margin-left: 16px;
   }
-  &.position-top{
+  &.position-top {
     top: 0;
     transform: translateX(-50%);
   }
-  &.position-bottom{
+  &.position-bottom {
     bottom: 0;
     transform: translateX(-50%);
   }
-  &.position-middle{
+  &.position-middle {
     top: 50%;
     transform: translateX(-50%);
   }
