@@ -40,8 +40,17 @@ new Vue({
     message: 'h1',
   },
   created() {
-    this.$toast('文字', {
-      enableHtml: false
+    this.$toast('点击知道！', {
+      position: 'middle',
+      enableHtml: false,
+      closeButton: {
+        text: '已知道',
+        callback() {
+          console.log('都已经知道了！')
+        }
+      },
+      autoClose: false,
+      autoCloseDelay: 3
     })
   },
   methods: {
