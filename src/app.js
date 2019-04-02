@@ -62,8 +62,7 @@ new Vue({
             console.log('已经充值了')
           }
         },
-        autoClose: false,
-        autoCloseDelay: 3
+        autoClose: 3,
       })
     },
   },
