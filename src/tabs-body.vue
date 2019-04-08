@@ -5,12 +5,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'RainbowTabsBody'
-  }
+export default {
+  name: 'RainbowTabsBody',
+  inject: ['eventBus'],
+  created() {}
+}
 </script>
 
 <style>
-  .tabs-body {
-  }
+.tabs-body {
+}
 </style> 
