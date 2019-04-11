@@ -13,6 +13,5 @@ export default {
 </script>
 
 <style>
-.tabs-body {
-}
+
 </style> 

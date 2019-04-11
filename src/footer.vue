@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+    name: 'RainbowContent'
+  }
+</script>
+
 <style lang="scss" scoped>
 
 </style> 

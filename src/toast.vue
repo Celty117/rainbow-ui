@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" :class="toastClasses">
+  <div class="rainbow-toast" :class="toastClasses">
     <div class="toast" ref="toast">
       <div class="message">
         <slot v-if="!enableHtml"></slot>
@@ -119,7 +119,7 @@ $toast-bg: rgba(0, 0, 0, 0.75);
     opacity: 1;
   }
 }
-.wrapper {
+.rainbow-toast {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -165,6 +165,7 @@ $toast-bg: rgba(0, 0, 0, 0.75);
   .close {
     padding-left: 16px;
     flex-shrink: 0;
+    cursor: pointer;
   }
   .line {
     height: 100%;

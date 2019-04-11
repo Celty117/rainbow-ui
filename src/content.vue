@@ -1,11 +1,17 @@
 <template>
-  <div class="content">
+  <div class="rainbow-content">
     <slot></slot>
   </div>
 </template>
 
+<script>
+  export default {
+    name: 'RainbowContent'
+  }
+</script>
+
 <style lang="scss" scoped>
-.content {
+.rainbow-content {
   flex-grow: 1;
 }
 </style> 
