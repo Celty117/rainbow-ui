@@ -6,13 +6,13 @@
     </p>
 
     <g-layout style="color: white; margin-bottom:50px;">
-      <g-header style="height: 50px; background:lightskyblue;">
+      <g-header style="height: 50px; background:#51adcf;">
         header
       </g-header>
-      <g-content style="height: 100px; background:deepskyblue;">
+      <g-content style="height: 100px; background:#a5ecd7;">
         content
       </g-content>
-      <g-footer style="height: 50px; background:lightskyblue;">
+      <g-footer style="height: 50px; background:#51adcf;">
         footer
       </g-footer>
     </g-layout>

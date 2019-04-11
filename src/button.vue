@@ -43,11 +43,11 @@ export default {
 $font-size: 14px;
 $button-height: 32px;
 $button-bg: white;
-$button-active-bg: #eee;
+$button-active-bg: #eeeeee;
 $border-radius: 4px;
-$color: #333;
+$color: #51adcf;
 $border-color: #999;
-$border-color-hover: #666;
+$border-color-hover: #51adcf;
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -69,6 +69,8 @@ $border-color-hover: #666;
   vertical-align: middle;
   &:hover {
     border-color: $border-color-hover;
+    color: $color;
+    fill: $color;
   }
   &:active {
     background-color: $button-active-bg;

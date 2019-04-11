@@ -10,13 +10,13 @@
         sider
       </g-sider>
       <g-layout>
-        <g-header style="height: 50px; background:lightskyblue;">
+        <g-header style="height: 50px; background:#51adcf;">
           header
         </g-header>
-        <g-content style="height: 100px; background:deepskyblue;">
+        <g-content style="height: 100px; background:#a5ecd7;">
           content
         </g-content>
-        <g-footer style="height: 50px; background:lightskyblue;">
+        <g-footer style="height: 50px; background:#51adcf;">
           footer
         </g-footer>
       </g-layout>
@@ -50,13 +50,13 @@ export default {
               sider
             </g-sider>
             <g-layout>
-              <g-header style="height: 50px; background:lightskyblue;">
+              <g-header style="height: 50px; background:#fb9696;">
                 header
               </g-header>
-              <g-content style="height: 100px; background:deepskyblue;">
+              <g-content style="height: 100px; background:#f6ca97;">
                 content
               </g-content>
-              <g-footer style="height: 50px; background:lightskyblue;">
+              <g-footer style="height: 50px; background:#fb9696;">
                 footer
               </g-footer>
             </g-layout>

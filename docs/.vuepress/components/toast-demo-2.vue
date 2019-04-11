@@ -6,7 +6,7 @@
     </p>
 
     <div>
-      <g-button @click="onClickButton">上方弹出</g-button>
+      <g-button @click="onClickButton">顶部弹出</g-button>
     </div>
 
     <p>
@@ -44,7 +44,7 @@ export default {
             }
           </style>
           <div>
-            <g-button @click="onClickButton">上方弹出</g-button>
+            <g-button @click="onClickButton">顶部弹出</g-button>
           </div>
           methods: {
             onClickButton () {

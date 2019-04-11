@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 $tab-height: 40px;
-$blue: blue;
+$blue: #0278ae;
 $border-color: #ddd;
 .tabs-head {
   display: flex;

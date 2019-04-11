@@ -6,7 +6,7 @@
     </p>
 
     <div>
-      <g-button @click="onClickButton">上方弹出</g-button>
+      <g-button @click="onClickButton">顶部弹出</g-button>
     </div>
 
     <p>
@@ -44,20 +44,15 @@ export default {
             }
           </style>
           <div>
-            <g-button @click="onClickButton">上方弹出</g-button>
+            <g-button @click="onClickButton">顶部弹出</g-button>
           </div>
           methods: {
-            onClickButton () {
-              this.$toast('你知道我在等你吗？', {
-                closeButton: {
-                  text: '知道了',
-                  callback: () => {
-                    console.log('他说知道了')
-                  }
-                }
+            onClickButton() {
+              this.$toast('<strong style="color:red;">加粗的提示</strong>', {
+                enableHtml: true
               })
             }
-          },
+          }
       `
         .replace(/^ {8}/gm, '')
         .trim()
@@ -65,7 +60,7 @@ export default {
   },
   methods: {
     onClickButton() {
-      this.$toast('<strong style="color:red;">加粗的提示</strong>', {
+      this.$toast('<strong style="color:#a5ecd7;">加粗的提示</strong>', {
         enableHtml: true
       })
     }

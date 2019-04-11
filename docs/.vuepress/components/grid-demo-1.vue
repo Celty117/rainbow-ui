@@ -104,8 +104,8 @@
 }
 .demoCol {
   height: 50px;
-  border: 1px solid #ccc;
-  background: #eee;
+  border: 1px solid #e8ffc1;
+  background: #a5ecd7;
   display: flex;
   justify-content: center;
   align-items: center;
