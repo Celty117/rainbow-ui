@@ -4,11 +4,17 @@ module.exports = {
   description: '一个好用的UI框架',
   themeConfig: {
     nav: [
-      {text: '主页', link: '/'},
-      {text: '文档', link: '/guide/'},
-      {text: '交流', link: 'https://google.com'},
+      { text: '主页', link: '/' },
+      { text: '欢迎 Star', link: 'https://github.com/Celty117/rainbow-ui' },
+      { text: 'Github', link: 'https://github.com/Celty117' },
     ],
     sidebar: [
+      {
+        title: '介绍',
+        children: [
+          '/introduce/',
+        ]
+      },
       {
         title: '入门',
         children: [

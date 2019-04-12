@@ -1,5 +1,12 @@
-# Rainbow UI 官网
-
-这是我为了提升自己对Vue和组件化开发的理解而制作的一个UI组件库，持续更新中。
-
-本组件库仅供学习交流，请勿在生产环境中使用，欢迎讨论交流。
+---
+home: true
+heroImage: /rainbow.png
+actionText: 快速上手 →
+actionLink: /introduce/
+features:
+- title: 简明优先
+  details: 极简化设计，注重内部功能实现。
+- title: Vue 驱动
+  details: 一款基于 Vue2.6 的 UI 组件库。
+footer: MIT Licensed | Copyright © 2019 Colin Wang
+---
